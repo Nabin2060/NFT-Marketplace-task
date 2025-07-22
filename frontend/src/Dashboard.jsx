@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { ethers } from "ethers";
 import Web3Modal from "web3modal";
-import KuverseNFT from "../../artifacts/contracts/KuverseNFT.sol/KuverseNFT.json";
+import KuverseNFT from "./contracts/KuverseNFT.sol/KuverseNFT.json";
 
 const contractAddress = "YOUR_DEPLOYED_CONTRACT_ADDRESS";
 
